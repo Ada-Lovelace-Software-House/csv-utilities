@@ -1,0 +1,12 @@
+{
+  "name": "csv-utilities",
+  "version": "1.0.0",
+  "description": "CSV Utilities is a collection of utility functions for manipulating CSV files, designed to simplify common operations such as creating new CSV files and converting CSV data to JavaScript objects.",
+  "main": "index.js",
+  "author": "Carlos Pasquali Dev",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.4.2",
+    "typescript": "^5.5.4"
+  }
+}
