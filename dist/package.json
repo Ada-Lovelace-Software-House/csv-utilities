@@ -1,0 +1,29 @@
+{
+  "name": "@ada-software/csv-utilities",
+  "version": "1.0.0",
+  "description": "CSV Utilities is a collection of utility functions for manipulating CSV files, designed to simplify common operations such as creating new CSV files and converting CSV data to JavaScript objects.",
+  "main": "lib/es5/index.js",
+  "module": "lib/es6/index.js",
+  "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ada-Lovelace-Software-House/csv-utilities.git"
+  },
+  "files": [
+    "lib",
+    "CHANGELOG.md",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ],
+  "keywords": [
+    "javascript",
+    "csv"
+  ],
+  "author": "Carlos Pasquali Dev",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Ada-Lovelace-Software-House/csv-utilities/issues"
+  },
+  "homepage": "https://github.com/Ada-Lovelace-Software-House/csv-utilities"
+}

@@ -1,4 +1,4 @@
-import fs from "fs";
+import { readFile } from "fs";
 
 function generateObject(header: string[]) {
   const obj: { [key: string]: any } = {};
@@ -60,7 +60,7 @@ export function csvToObject<T>(
   delimiter: string
 ): Promise<T[]> {
   return new Promise((resolve, reject) => {
-    fs.readFile(filePath, "utf8", (err: any, data: any) => {
+    readFile(filePath, "utf8", (err: any, data: any) => {
       if (err) {
         // eslint-disable-next-line no-console
         console.log(err);
