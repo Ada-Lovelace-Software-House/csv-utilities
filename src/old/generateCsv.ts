@@ -31,7 +31,7 @@ function generateRows({ rows, delimiter }: IGenerateRows) {
   return buffers;
 }
 
-export async function generateCSV({
+export async function oldGenerateCSV({
   header,
   rows,
   delimiter = ";",
