@@ -1,13 +1,9 @@
-import readline from "readline";
+import * as readline from "readline";
 import { Transform, Writable, pipeline } from "stream";
-import fs from "fs";
+import * as fs from "fs";
 import { promisify } from "util";
 import { csvUtils } from "./CSVUtils";
 import { IObjectAndKeys } from "./types";
-
-//#region TRANSFORM STREAM
-
-//#endregion
 
 class CSVStreams {
   isHeader = true;
@@ -71,5 +67,3 @@ class CSVStreams {
 }
 
 export const csvStreams = new CSVStreams();
-
-//#endregion
